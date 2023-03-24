@@ -51,6 +51,10 @@ func getLogFiles(env Env) ([]string, error) {
 	return files, err
 }
 
+// find out:
+// 1) log count
+// 2) timestamp of first log
+// 3) timestamp of last log
 func parseFile(file string) (int, int, int) {
 	count, startTime, endTime := 0, -1, -1
 
@@ -95,6 +99,9 @@ func main() {
 	defer result.Close()
 	count := 0
 	max_duration := 0
+
+	// sum all the log count
+	// find the max duration
 	for _, file := range files {
 		count_, startTime, endTime := parseFile(file)
 		count += count_
