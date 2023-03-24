@@ -21,7 +21,7 @@
 | `MSG_COUNT`               | 10000         |
 
 ### Pros
-- producer send messages `synchronously`, no message loss
+- producer send messages `synchronously`, order is guaranteed.
 - `replication-factor = 3`, high-availability
 
 
