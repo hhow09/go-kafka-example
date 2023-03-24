@@ -1,5 +1,7 @@
 # Basic Async with Consumer Groups (3)
 
+![](../doc/consumer-groups.png)
+
 ## Change
 add [basic-async](../basic-async/) with 3 consumers (same consumer group)
 

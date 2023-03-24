@@ -1,5 +1,7 @@
 # Basic 
 
+![](../doc/basic.png)
+
 ## Settings
 | Name                     	| setting 	|
 |--------------------------	|---------	|

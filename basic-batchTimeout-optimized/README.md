@@ -1,5 +1,7 @@
 # Basic Batch Timeout Optimized
 
+![](../doc/basic.png)
+
 ## Settings
 | Name                     	| setting 	|
 |--------------------------	|---------	|

@@ -2,6 +2,9 @@
 - improve setting from [Basic Batch Timeout Optimized](../basic-batchTimeout-optimized/).
 - for better durability.
 
+![](../doc/replicated_.png)
+
+
 ## Settings
 | Name                     	| setting 	    |
 |--------------------------	|---------	    |
