@@ -11,7 +11,8 @@
 | -----------           	  | ----     	|
 | producer send           	| sync  	  |
 | producer batch timeout   	| 10 ms (default 1 second)  	  |
-
+| -----------           	| ----          |
+| `MSG_COUNT`               | 10000      |
 
 
 ## [WriterConfig.BatchTimeout](https://github.com/segmentio/kafka-go/blob/main/writer.go#L230)

@@ -12,8 +12,10 @@ add [basic-async](../basic-async/) with 3 consumers (same consumer group)
 | brokers count            	| 3       	  |
 | producer count           	| 1       	  |
 | consumer count           	| 3 (changed) |
-| -----------           	  | ----     	  |
-| producer send           	| ASNYC  	    |
+| -----------           	  | ----      |
+| producer send           	| ASNYC  	  |
+| -----------           	  | ----      |
+| `MSG_COUNT`               | 10000     |
 
 ### Pros
 - snce we have 3 partitions, using 3 conumser (same group) can enhenche receiver throughput.

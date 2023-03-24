@@ -10,6 +10,8 @@
 | consumer count           	| 1       	|
 | -----------           	| ----     	|
 | producer send           	| sync  	|
+| -----------           	| ----      |
+| MSG_COUNT                	| 100  	    |
 
 ### Pros
 - producer send messages `synchronously`, order is guaranteed.

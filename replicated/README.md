@@ -14,6 +14,8 @@
 | producer send           	| sync  	    |
 | producer batch timeout   	| 10 ms         |
 | producer Required Acks   	| -1  (all)     |
+| -----------           	| ----          |
+| `MSG_COUNT`               | 10000         |
 
 ### Pros
 - producer send messages `synchronously`, no message loss

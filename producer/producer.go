@@ -45,7 +45,7 @@ func getEnv() Env {
 	brokers := strings.Split(os.Getenv("BROKER_ADDRESS"), ",")
 	topic := MustGetEnv("TOPIC")
 	id := MustGetEnv("ID")
-	maxCount := GetEnvInt("MAX_COUNT", 100)
+	maxCount := GetEnvInt("MSG_COUNT", 100)
 	async := os.Getenv("ASYNC")
 	batchTimeoutMs := GetEnvInt("BATCH_TIMEOUT_MS", 1000)
 	if len(brokers) == 0 {

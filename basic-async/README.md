@@ -25,6 +25,9 @@ update [basic](../basic/) with async producer
 | consumer count           	| 1       	|
 | -----------           	  | ----     	|
 | producer send           	| ASNYC  	  |
+| -----------           	  | ----      |
+| `MSG_COUNT`               | 10000     |
+
 
 ### Pros
 - producer send messages `asynchronously`, higher throughput than [basic](../basic/)

@@ -125,7 +125,7 @@ services:
       - BROKER_ADDRESS=host.docker.internal:29092,host.docker.internal:29093,host.docker.internal:29094
       - TOPIC=message-log
       - ID=1
-      - MAX_COUNT=10000 # total message count
+      - MSG_COUNT=10000 # total message count
       - BATCH_TIMEOUT_MS=10 # default is 1000
     depends_on:
       init-kafka:

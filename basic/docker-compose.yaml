@@ -123,7 +123,7 @@ services:
     environment: 
       - BROKER_ADDRESS=host.docker.internal:29092,host.docker.internal:29093,host.docker.internal:29094
       - TOPIC=message-log
-      - MAX_COUNT=100 # total message count
+      - MSG_COUNT=100 # total message count
     depends_on:
       init-kafka:
         condition: service_completed_successfully   
